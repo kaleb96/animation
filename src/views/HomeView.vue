@@ -132,7 +132,12 @@ li {
   transform: scale(1);
 }
 
-.invitees-enter-active {
+.invitees-leave-active {
   transition: all 0.8s ease;
+  position: absolute;
+}
+
+.invitees-move {
+  transition: all 0.8 ease;
 }
 </style>
